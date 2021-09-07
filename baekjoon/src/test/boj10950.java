@@ -8,26 +8,26 @@ public class boj10950 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
-		//nextint¶û nextLine ¿À·ùÃ³¸®
+		//nextintëž‘ nextLine ì˜¤ë¥˜ì²˜ë¦¬
 		sc.nextLine();
 		
 		// for(int i = t; i>0 ;t--)
 		//for(int i=1; i<=t; t++)
 		
 		int[] arr = new int[t];
-		//t¹ø ¸¸Å­ ÀÔ·ÂÀ» ¹Þ¾ÆÁÜ
+		//të²ˆ ë§Œí¼ ìž…ë ¥ì„ ë°›ì•„ì¤Œ
 		for(int i=0; i<t; i++) {
 			String in = sc.nextLine();
-			//¹Þ¾ÆÁØ ÀÔ·Â°ªÀ» a, b¶û ³ª´²¼­ ¹Þ¾ÆÁÜ
-			//ÀÌ¶§ °¡Á®¿À´Â °ªÀº ¹®ÀÚ¿­ÀÌ±â ¶§¹®¿¡ String »ç¿ë
-			//a,b ´õÇØ¾ßµÇ±â ¶§¹®/ ³ª´²Áø °ªÀº intÀÌ±â ¶§¹®¿¡ ÀÎÆ¼ÀúÆÄ¼¼ »ç¿ë***
+			//ë°›ì•„ì¤€ ìž…ë ¥ê°’ì„ a, bëž‘ ë‚˜ëˆ ì„œ ë°›ì•„ì¤Œ
+			//ì´ë•Œ ê°€ì ¸ì˜¤ëŠ” ê°’ì€ ë¬¸ìžì—´ì´ê¸° ë•Œë¬¸ì— String ì‚¬ìš©
+			//a,b ë”í•´ì•¼ë˜ê¸° ë•Œë¬¸/ ë‚˜ëˆ ì§„ ê°’ì€ intì´ê¸° ë•Œë¬¸ì— ì¸í‹°ì €íŒŒì„¸ ì‚¬ìš©***
 			int a = Integer.parseInt(in.split(" ")[0]);
 			int b = Integer.parseInt(in.split(" ")[1]);
-			//´õÇÑ°ªÀ» ¹è¿­¿¡ ´ã¾ÆÁÜ
+			//ë”í•œê°’ì„ ë°°ì—´ì— ë‹´ì•„ì¤Œ
 			arr[i] = a+b;
 		} 
-		//±×³É °¡Á®¿À¸é ÁÖ¼Ò°ªÀ¸·Î ³ª¿À±â ¶§¹®¿¡ for¹® ¹Ýº¹À¸·Î
-		//¹è¿­ÀÇ index°ªÀ» °¡Á®¿ÍÁÜ
+		//ê·¸ëƒ¥ ê°€ì ¸ì˜¤ë©´ ì£¼ì†Œê°’ìœ¼ë¡œ ë‚˜ì˜¤ê¸° ë•Œë¬¸ì— forë¬¸ ë°˜ë³µìœ¼ë¡œ
+		//ë°°ì—´ì˜ indexê°’ì„ ê°€ì ¸ì™€ì¤Œ
 		for(int i=0; i<arr.length; i++) {
 			System.out.println(arr[i]);
 		}
