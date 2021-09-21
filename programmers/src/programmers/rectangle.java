@@ -6,7 +6,7 @@ public class rectangle {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String[] input = sc.nextLine().split(" "); // �迭�� �����ֱ�
+		String[] input = sc.nextLine().split(" "); // 입력받은 문자열을 바로 빈칸으로 구분해서 나누어 배열값으로 넣어주기
 
 		int n = Integer.parseInt(input[0]);
 		int m = Integer.parseInt(input[1]);

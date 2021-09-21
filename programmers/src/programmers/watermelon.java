@@ -13,11 +13,10 @@ public class watermelon {
 		for (int i = 0; i < input; i++) {
 			String a = "수";
 			String b = "박";
-			if (input % 2 > 0) { // 짝수일때
-
-				System.out.printf("%d+%d+%d", a, a + b);
-			} else { // 홀수일때
-				System.out.printf("%d+%d", a, a + b);
+			if (input % 2 !=0) { // 홀수일때
+				System.out.printf("%s", a);
+			} else { // 짝수일때
+				System.out.printf("%s", b);
 			}
 		}
 	}
