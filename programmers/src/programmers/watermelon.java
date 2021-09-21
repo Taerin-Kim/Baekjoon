@@ -9,14 +9,14 @@ public class watermelon {
 		Scanner sc = new Scanner(System.in);
 		int input = sc.nextInt();
 
-		// i´Â ³ª¿­ÇÏ´Â ¼ö ¸¸Å­ ¹İº¹
+		// iëŠ” ë‚˜ì—´ë˜ëŠ” ë¬¸ì..ê°¯ìˆ˜
 		for (int i = 0; i < input; i++) {
-			String a = "¼ö";
-			String b = "¹Ú";
-			if (input % 2 > 0) { // ³ª¸ÓÁö°¡ 1ÀÏ¶§ Áï, È¦¼öÀÏ¶§
+			String a = "ìˆ˜";
+			String b = "ë°•";
+			if (input % 2 > 0) { // ì§ìˆ˜ì¼ë•Œ
 
 				System.out.printf("%d+%d+%d", a, a + b);
-			} else { // Â¦¼öÀÏ¶§
+			} else { // í™€ìˆ˜ì¼ë•Œ
 				System.out.printf("%d+%d", a, a + b);
 			}
 		}

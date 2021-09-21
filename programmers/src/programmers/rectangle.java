@@ -6,18 +6,18 @@ public class rectangle {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String[] input = sc.nextLine().split(" "); // ¹è¿­·Î ³ª´²ÁÖ±â
+		String[] input = sc.nextLine().split(" "); // ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½
 
 		int n = Integer.parseInt(input[0]);
 		int m = Integer.parseInt(input[1]);
 
-		// °¡·În ¼¼·Îm
-		//mÁÙ
-		//º° n°³
+		// ê°€ë¡œn ì„¸ë¡œm
+		//mì¤„ìˆ˜
+		//n ë³„ê°¯ìˆ˜
 		
-		//ÁÙ¼ö 
+		//ì¤„ìˆ˜ ë¨¼ì €
 		for(int i = 0; i< m ; i++) {
-			//º°¼ö
+			//ê·¸ë‹¤ìŒ ë³„ìˆ˜
 			for(int j = 0; j < n; j++) {
 				System.out.print("*");
 			} 
