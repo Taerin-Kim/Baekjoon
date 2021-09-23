@@ -5,11 +5,13 @@ import java.util.Scanner;
 public class phone_number {
 
 	public static void main(String[] args) {
-		//subString »ç¿ëÇÏ±â
-		//s´Â 4ÀÚ¸® ÀÌ»ó 20 ÀÚ¸® ¹Ì¸¸
-		System.out.println("ÇÚµåÆù ¹øÈ£¸¦ ¼ıÀÚ¸¸ ÀÔ·ÂÇØÁÖ¼¼¿ä");
+		//subString ì‚¬ìš©í•˜ê¸°
+		//sëŠ” 4ìë¦¬ ì´ìƒ 20 ìë¦¬ ë¯¸ë§Œ
+		System.out.println("í•¸ë“œí° ë²ˆí˜¸ë¥¼ ìˆ«ìë§Œ ì…ë ¥í•´ì£¼ì„¸ìš”");
 		Scanner sc = new Scanner(System.in);
 		String num = sc.nextLine();
+		
+		
 	}
 
 }
