@@ -10,7 +10,6 @@ public class Even_Odd2 {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		
-
 		String a = "Even";
 		String b = "Odd";
 		
