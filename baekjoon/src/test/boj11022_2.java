@@ -6,6 +6,7 @@ public class boj11022_2 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
+		//반복횟수가 안맞음 오답임
 
 		int T = in.nextInt();
 

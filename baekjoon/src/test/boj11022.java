@@ -32,9 +32,7 @@ public class boj11022 {
 
 					// 기원 : for문에서 i=0으로 바뀜에 따라, i => i+1 로 변경
 
-					i + 1, arr[i][0], arr[i][1], Integer.parseInt(arr[i][0]) + Integer.parseInt(arr[i][1])
-
-			);
+					i + 1, arr[i][0], arr[i][1], Integer.parseInt(arr[i][0]) + Integer.parseInt(arr[i][1]));
 
 		}
 
