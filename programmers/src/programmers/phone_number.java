@@ -11,22 +11,33 @@ public class phone_number {
 		Scanner sc = new Scanner(System.in);
 		String num = sc.nextLine();
 		
-		private String solution(String phone_number) {
-			String answer = "";
+		//solution(num);
+		System.out.println(solution(num));
 
-			int n = phone_number.length();
-			for (int i = 0; i < n-4; i++) {
-				answer += "*";
+		// 먼저 번호의 길이를 가져와서 (매개변수의 길이가 가변적, 길이를 측정)
+		// 인덱스 0번지부터 마지막-4 까지 replace로 별표로 바꿔줌
+
+	}
+
+	private static String solution(String phone_number) {
+		String answer = "";
+
+		int n = phone_number.length();
+
+		for (int i = 0; i < n; i++) { //폰번호 길이 만큼을 반복해주는 거임
+			if (i < n - 4) {
+				answer += "*"; // answer 자기자신에 + *을 붙여준다는 의미
+			} else {
+				answer += phone_number.charAt(i);
 			}
-			answer += phone_number.substring(n-4, n);
-			
-			return answer;
+		}
+		return answer;
 	}
-	}
+}
 
-	// 끝에서4글자 전까지for 문을 돌려 “*”을 찍고 String 의 + 성질을 이용
+// 끝에서4글자 전까지for 문을 돌려 “*”을 찍고 String 의 + 성질을 이용
 
-	// toCharArray를 사용한 경우도 있음
+// toCharArray를 사용한 경우도 있음
 
 //		public String solution(String phone_number) {
 //			 
@@ -40,5 +51,3 @@ public class phone_number {
 //	 
 //	        return String.valueOf(ch);
 //	    }
-
-}
