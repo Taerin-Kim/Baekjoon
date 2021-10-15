@@ -3,15 +3,19 @@ package programmers;
 public class plus_digitNum2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int n = 0;
+		solution(n);
 	}
-	
-	//int타입으로 풀기
-	
-	int solution(int n) {
-	    int answer = 0;
-	    return answer;
+
+	// int타입으로 풀기
+
+	static int solution(int n) {
+		int answer = 0;
+		while (n >= 1) {
+			answer += n % 10;
+			n /= 10;
+		}
+		return answer;
 	}
 
 }
