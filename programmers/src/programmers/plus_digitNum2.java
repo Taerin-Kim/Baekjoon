@@ -18,4 +18,5 @@ public class plus_digitNum2 {
 		return answer;
 	}
 
+	//에러메세지 확인하기
 }
